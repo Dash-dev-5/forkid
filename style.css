@@ -1,0 +1,306 @@
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("Inter Web/Inter-Thin.woff2?v=3.19") format("woff2"),
+         url("Inter Web/Inter-Thin.woff?v=3.19") format("woff");
+  }
+  @font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --vert:rgb(5, 85, 151);
+    --rose: rgb(255, 1, 77);
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    font-family: inter;
+    background-image: url("img/bg.png");
+}
+footer{
+    display: flex;
+    height: 300px;
+    background-color: black;
+}
+nav a{
+    font-family:  sans-serif;
+    font-weight: bold;
+    color: var(--vert);
+    text-decoration: none;
+    padding: 12px;
+    transition: 0.9s;
+}
+.title{
+    padding-left:10px ;
+}
+
+.act a{
+    color: white;
+    background-color: var(--vert) ;
+    padding: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 10px;
+}
+.avonsFait{
+    display: flex;
+}
+.h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:var(--vert) ;padding-bottom: 8px;
+    border-bottom: 1px solid rgba(61, 54, 54, 0.788);
+    padding-left: 15px; 
+    
+}
+.h22{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:var(--vert) ;padding-bottom: 8px;
+
+    border-bottom: 1px solid rgba(61, 54, 54, 0.788);
+
+}
+.fait1 img{
+    width: 400px;
+    height: 320px;
+}
+.fait2 img{
+    width: 400px;
+    height: 320px;
+}
+.n{
+    width: 90%;
+    margin: auto;
+}
+.fait1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0%;
+}
+p{
+    text-align: justify;
+}
+.fait1 p{
+    color: white;
+    padding: 10px;
+    margin: auto;
+}
+.fait2 p{
+    color: white;
+    padding: 10px;
+    margin: auto;
+}
+
+
+.fait2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0%;
+
+}
+.don{
+    background-color: rgb(255, 1, 77);
+    color: white;
+    background-color: var(--rose) ;
+    padding: 4px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 2px;
+    border-radius: 5px;
+
+}
+.n{
+    background-color: rgb(36, 39, 39);
+    padding-top:1px ;
+}
+#don{
+    background-color: rgb(255, 1, 77);
+}
+.lastNew{
+    width: 1400px;
+    box-shadow: 2px 4px 2px rgba(155, 141, 141, 0.644);
+   background-image: url("img/Sans\ titre.png");
+
+}
+.photo{
+    width: 200px;
+    height: 80px;
+    overflow: hidden;    
+}
+.photo img{
+    filter: grayscale(100%);
+    transition: transform .2s;
+
+}
+.photo img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.5);
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  
+
+}
+p{
+    padding-left: 10px;
+}
+aside h3{
+    padding-bottom: 12px;
+    border-bottom: 4px solid rgba(66, 61, 61, 0.555);
+}
+
+article{
+    display: flex;
+    background-color: var(--vert) ;
+    width: 90%;
+    margin: auto;
+    background-image: url("img/Sans\ titre.png");
+}
+nav a:hover{
+    background-color:var(--vert) ;
+    color: white;
+
+}
+.vision, .mission, .changer{
+    display: flex;
+    align-items: center;
+}
+aside{
+    margin: 0px 20px 20px 20px;
+
+}
+span{
+    color: white;
+}
+.title h1{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    
+}
+.logo img{
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10%;
+}
+nav{
+    margin-right: 80px;
+}
+.logo{
+    display: flex;
+}
+#caroucel{
+   /* width: 100%;
+    overflow: hidden;
+    height: 500px;*/
+    width: 90%;
+
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    margin:  auto;
+    width: 90%;
+    height: 600px;
+   
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(img/pexels-rodnae-productions-6646967.jpg);
+   animation-name: diapo;
+   animation-duration: 20s;
+   animation-direction: normal;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   box-shadow: ;
+
+}
+.title1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.centre{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.432);
+    padding: 25px;
+    border-radius: 5px;
+}
+
+/*.image{
+    display: flex;
+    animation-duration: 10s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+
+}
+<div class="image">
+<img src="img/pexels-rodnae-productions-6646967.jpg" width="1330px" alt="Fondation">
+<img src="img/pexels-rodnae-productions-6647007.jpg" width="1330px alt="Fondation">
+</div>
+@keyframes mesImages {
+   0%{
+        transform: translateX(0);
+   }  
+   50%{
+    transform: translateX(-100%);
+   }
+   100%{
+    transform: translateX(0);
+}
+} */    
+@keyframes diapo {
+   
+    
+    0%{
+        background-image: url("img/pexels-rodnae-productions-6646967.jpg");
+        transition: 0.9s;
+
+       }  
+   50%{
+    transition: 0.3s;
+    background-image: url("img/pexels-rodnae-productions-6647007.jpg");
+    }
+   100%{
+    transition: 0.3s;
+    background-image: url("img/pexels-rodnae-productions-6646967.jpg");
+
+}
+    
+}
